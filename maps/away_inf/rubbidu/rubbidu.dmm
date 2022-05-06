@@ -10295,7 +10295,7 @@
 /area/rubbidu/civil/botany)
 "rr" = (
 /obj/random/trash,
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
 /area/rubbidu/civil/botany)
@@ -10433,7 +10433,7 @@
 /area/aquila/passenger)
 "rB" = (
 /obj/structure/reagent_dispensers/watertank,
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /obj/effect/floor_decal/corner/green/diagonal,
 /turf/simulated/floor/tiled,
 /area/rubbidu/civil/botany)

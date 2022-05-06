@@ -1114,7 +1114,7 @@
 "cm" = (
 /obj/structure/table/woodentable/walnut,
 /obj/item/shovel/spade,
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /obj/item/material/hatchet,
 /obj/item/storage/plants,
 /turf/simulated/floor/wood/walnut,

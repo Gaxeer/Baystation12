@@ -1260,7 +1260,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/xenosci/workshop)
 "eW" = (
@@ -1972,7 +1972,7 @@
 	dir = 4
 	},
 /obj/structure/reagent_dispensers/watertank,
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
 	},

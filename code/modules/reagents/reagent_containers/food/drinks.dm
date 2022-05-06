@@ -25,15 +25,12 @@
 		open(user)
 
 /obj/item/reagent_containers/food/drinks/proc/open(mob/user)
-//	playsound(loc,'sound/effects/canopen.ogg', rand(10,50), 1) inf-dev: see below
 	to_chat(user, "<span class='notice'>You open \the [src] with an audible pop!</span>")
 	atom_flags |= ATOM_FLAG_OPEN_CONTAINER
 
-	// INF@CODE - START
 	verbs += /obj/item/reagent_containers/food/drinks/proc/gulp_whole
 	if(open_sound)
 		playsound(src, open_sound, rand(10, 50), 1)
-	// INF@CODE - END
 
 /obj/item/reagent_containers/food/drinks/attack(mob/M as mob, mob/user as mob, def_zone)
 	if(force && !(item_flags & ITEM_FLAG_NO_BLUDGEON) && user.a_intent == I_HURT)
@@ -42,7 +39,7 @@
 	if(standard_feed_mob(user, M))
 		return
 
-	return 0
+	return FALSE
 
 /obj/item/reagent_containers/food/drinks/afterattack(obj/target, mob/user, proximity)
 	if(!proximity) return
@@ -58,27 +55,6 @@
 			reagents.splash(target, reagents.total_volume)
 			return
 	..()
-
-/obj/item/reagent_containers/food/drinks/standard_feed_mob(var/mob/user, var/mob/target)
-	if(!is_open_container())
-		to_chat(user, "<span class='notice'>You need to open \the [src]!</span>")
-		return 1
-	if(user.a_intent == I_HURT)
-		return 1
-	return ..()
-
-/obj/item/reagent_containers/food/drinks/standard_dispenser_refill(var/mob/user, var/obj/structure/reagent_dispensers/target)
-	if(!is_open_container())
-		to_chat(user, "<span class='notice'>You need to open \the [src]!</span>")
-		return 1
-	return ..()
-
-/obj/item/reagent_containers/food/drinks/standard_pour_into(var/mob/user, var/atom/target)
-	if(!is_open_container())
-		to_chat(user, "<span class='notice'>You need to open \the [src]!</span>")
-		return 1
-	return ..()
-
 /obj/item/reagent_containers/food/drinks/self_feed_message(var/mob/user)
 	to_chat(user, "<span class='notice'>You swallow a gulp from \the [src].</span>")
 	if(user.has_personal_goal(/datum/goal/achievement/specific_object/drink))

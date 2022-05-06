@@ -1009,7 +1009,7 @@
 	level = 2
 	},
 /obj/item/shovel/spade,
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/yew,
 /area/yacht/living)

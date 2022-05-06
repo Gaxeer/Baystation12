@@ -577,7 +577,7 @@
 /turf/simulated/floor/plating,
 /area/map_template/syndicate_mothership/raider_base)
 "bJ" = (
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /turf/simulated/floor/plating,
 /area/map_template/syndicate_mothership/raider_base)
 "bK" = (

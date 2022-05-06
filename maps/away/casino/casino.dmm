@@ -2084,7 +2084,7 @@
 /turf/simulated/floor/plating,
 /area/casino/casino_maintenance)
 "fO" = (
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /turf/simulated/floor/plating,
 /area/casino/casino_maintenance)
 "fP" = (

@@ -108,13 +108,7 @@
 	if(standard_feed_mob(user, M))
 		update_icon(src)
 		return
-	return 0
-
-/obj/item/reagent_containers/food/snacks/can/standard_feed_mob(var/mob/user, var/mob/target)
-	if(!is_open_container())
-		to_chat(user, "<span class='notice'>You need to open the [src]!</span>")
-		return 1
-	return ..()
+	return FALSE
 
 #undef HARD
 #undef EASY

@@ -1327,7 +1327,7 @@
 	dir = 8
 	},
 /obj/structure/reagent_dispensers/watertank,
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/random/date_based/christmas/xmaslights,
 /obj/machinery/camera/network/second_deck{
@@ -24824,7 +24824,7 @@
 "aSI" = (
 /obj/structure/catwalk,
 /obj/item/reagent_containers/food/snacks/meat/monkey,
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /turf/simulated/open,
 /area/rnd/xenobiology/water_cell)
 "aSJ" = (
@@ -29984,7 +29984,7 @@
 	dir = 4;
 	level = 2
 	},
-/obj/item/reagent_containers/glass/bucket/wood{
+/obj/item/reagent_containers/bucket/wood{
 	pixel_y = 5
 	},
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -34337,7 +34337,7 @@
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/galley)
 "dCT" = (
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
@@ -40251,7 +40251,7 @@
 "ulz" = (
 /obj/structure/table/standard,
 /obj/item/storage/box/lights/mixed,
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /obj/machinery/alarm{
 	dir = 4;
 	pixel_x = -24

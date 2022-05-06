@@ -791,7 +791,7 @@
 /area/verne/common/hydroponics)
 "dU" = (
 /obj/structure/table/standard,
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /obj/item/reagent_containers/syringe,
 /obj/item/reagent_containers/dropper,
 /obj/item/reagent_containers/glass/beaker{
@@ -3492,7 +3492,7 @@
 "zy" = (
 /obj/item/mop,
 /obj/item/device/lightreplacer,
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /obj/item/caution,
 /obj/item/caution,
 /obj/effect/floor_decal/corner/b_green/mono,

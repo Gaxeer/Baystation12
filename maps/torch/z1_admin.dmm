@@ -4979,7 +4979,7 @@
 /area/centcom/specops)
 "aBM" = (
 /obj/structure/reagent_dispensers/watertank,
-/obj/item/reagent_containers/glass/bucket{
+/obj/item/reagent_containers/bucket{
 	amount_per_transfer_from_this = 50
 	},
 /turf/unsimulated/floor{

@@ -1703,7 +1703,7 @@
 /area/crew_quarters/mess)
 "dG" = (
 /obj/structure/reagent_dispensers/watertank,
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /obj/machinery/light{
 	dir = 8
 	},
@@ -5477,7 +5477,7 @@
 	dir = 8;
 	in_use = 0
 	},
-/obj/item/reagent_containers/glass/bucket/wood,
+/obj/item/reagent_containers/bucket/wood,
 /obj/structure/hygiene/sink{
 	pixel_z = -14
 	},
@@ -6009,7 +6009,7 @@
 /area/crew_quarters/observation)
 "lZ" = (
 /obj/structure/reagent_dispensers/watertank,
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /obj/effect/floor_decal/corner/green/half{
 	dir = 1;
 	icon_state = "bordercolorhalf"

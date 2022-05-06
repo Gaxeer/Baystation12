@@ -80,7 +80,7 @@
 		else
 			to_chat(user, "<span class='notice'>[src] can't hold any more signs.</span>")
 
-	else if(istype(I, /obj/item/reagent_containers/glass))
+	else if(istype(I, /obj/item/reagent_containers/bucket))
 		return // So we do not put them in the trash bag as we mean to fill the mop bucket
 
 	else if(mybag)

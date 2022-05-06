@@ -1162,7 +1162,7 @@
 /area/maintenance/firstdeck/aftstarboard)
 "acz" = (
 /obj/random/trash,
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /obj/item/device/flashlight/flare/glowstick/random,
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/aftstarboard)
@@ -1304,7 +1304,7 @@
 /area/crew_quarters/heads/captain/secret_room/level_two)
 "acR" = (
 /obj/structure/reagent_dispensers/watertank,
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/forestarboard)
 "acS" = (
@@ -38030,7 +38030,7 @@
 	dir = 8
 	},
 /obj/structure/reagent_dispensers/watertank,
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 8
 	},

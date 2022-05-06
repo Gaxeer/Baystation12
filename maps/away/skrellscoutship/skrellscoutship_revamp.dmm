@@ -4204,7 +4204,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /obj/item/reagent_containers/glass/rag{
 	pixel_x = 4
 	},
@@ -5677,7 +5677,7 @@
 /obj/structure/table/glass,
 /obj/item/material/hatchet,
 /obj/item/material/minihoe,
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/bucket,
 /obj/machinery/light/skrell{
 	dir = 1;
 	icon_state = "tube1"
